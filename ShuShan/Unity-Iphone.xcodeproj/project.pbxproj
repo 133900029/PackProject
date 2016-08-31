@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462276341D77365D00191B8D /* ShuShanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462276331D77365D00191B8D /* ShuShanTests.m */; };
+		4622763F1D77365D00191B8D /* ShuShanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4622763E1D77365D00191B8D /* ShuShanUITests.m */; };
+		4622764E1D77368400191B8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4622761B1D77365D00191B8D /* AppDelegate.m */; };
+		4622764F1D77368400191B8D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462276201D77365D00191B8D /* GameViewController.m */; };
+		462276501D77368400191B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462276181D77365D00191B8D /* main.m */; };
+		462276531D77368400191B8D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4622761D1D77365D00191B8D /* art.scnassets */; };
+		462276541D77368400191B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462276271D77365D00191B8D /* LaunchScreen.storyboard */; };
+		462276551D77368400191B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462276251D77365D00191B8D /* Assets.xcassets */; };
+		462276561D77368400191B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462276221D77365D00191B8D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462276181D77365D00191B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4622761A1D77365D00191B8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4622761B1D77365D00191B8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4622761D1D77365D00191B8D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4622761F1D77365D00191B8D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		462276201D77365D00191B8D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		462276231D77365D00191B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462276251D77365D00191B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462276281D77365D00191B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4622762A1D77365D00191B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4622762F1D77365D00191B8D /* ShuShanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuShanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		462276331D77365D00191B8D /* ShuShanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuShanTests.m; sourceTree = "<group>"; };
+		462276351D77365D00191B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4622763A1D77365D00191B8D /* ShuShanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuShanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4622763E1D77365D00191B8D /* ShuShanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuShanUITests.m; sourceTree = "<group>"; };
+		462276401D77365D00191B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4622765A1D77368400191B8D /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4622765B1D77368400191B8D /* ShuShan copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShuShan copy-Info.plist"; path = "/Users/luozhuocheng/IOS/PackProject/ShuShan/ShuShan copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4622762C1D77365D00191B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462276371D77365D00191B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462276511D77368400191B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4622760B1D77365D00191B8D = {
+			isa = PBXGroup;
+			children = (
+				462276161D77365D00191B8D /* ShuShan */,
+				462276321D77365D00191B8D /* ShuShanTests */,
+				4622763D1D77365D00191B8D /* ShuShanUITests */,
+				462276151D77365D00191B8D /* Products */,
+				4622765B1D77368400191B8D /* ShuShan copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		462276151D77365D00191B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4622762F1D77365D00191B8D /* ShuShanTests.xctest */,
+				4622763A1D77365D00191B8D /* ShuShanUITests.xctest */,
+				4622765A1D77368400191B8D /* AppStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462276161D77365D00191B8D /* ShuShan */ = {
+			isa = PBXGroup;
+			children = (
+				4622761A1D77365D00191B8D /* AppDelegate.h */,
+				4622761B1D77365D00191B8D /* AppDelegate.m */,
+				4622761D1D77365D00191B8D /* art.scnassets */,
+				4622761F1D77365D00191B8D /* GameViewController.h */,
+				462276201D77365D00191B8D /* GameViewController.m */,
+				462276221D77365D00191B8D /* Main.storyboard */,
+				462276251D77365D00191B8D /* Assets.xcassets */,
+				462276271D77365D00191B8D /* LaunchScreen.storyboard */,
+				4622762A1D77365D00191B8D /* Info.plist */,
+				462276171D77365D00191B8D /* Supporting Files */,
+			);
+			path = ShuShan;
+			sourceTree = "<group>";
+		};
+		462276171D77365D00191B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462276181D77365D00191B8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462276321D77365D00191B8D /* ShuShanTests */ = {
+			isa = PBXGroup;
+			children = (
+				462276331D77365D00191B8D /* ShuShanTests.m */,
+				462276351D77365D00191B8D /* Info.plist */,
+			);
+			path = ShuShanTests;
+			sourceTree = "<group>";
+		};
+		4622763D1D77365D00191B8D /* ShuShanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4622763E1D77365D00191B8D /* ShuShanUITests.m */,
+				462276401D77365D00191B8D /* Info.plist */,
+			);
+			path = ShuShanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4622762E1D77365D00191B8D /* ShuShanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462276461D77365D00191B8D /* Build configuration list for PBXNativeTarget "ShuShanTests" */;
+			buildPhases = (
+				4622762B1D77365D00191B8D /* Sources */,
+				4622762C1D77365D00191B8D /* Frameworks */,
+				4622762D1D77365D00191B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuShanTests;
+			productName = ShuShanTests;
+			productReference = 4622762F1D77365D00191B8D /* ShuShanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		462276391D77365D00191B8D /* ShuShanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462276491D77365D00191B8D /* Build configuration list for PBXNativeTarget "ShuShanUITests" */;
+			buildPhases = (
+				462276361D77365D00191B8D /* Sources */,
+				462276371D77365D00191B8D /* Frameworks */,
+				462276381D77365D00191B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuShanUITests;
+			productName = ShuShanUITests;
+			productReference = 4622763A1D77365D00191B8D /* ShuShanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4622764C1D77368400191B8D /* AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462276571D77368400191B8D /* Build configuration list for PBXNativeTarget "AppStore" */;
+			buildPhases = (
+				4622764D1D77368400191B8D /* Sources */,
+				462276511D77368400191B8D /* Frameworks */,
+				462276521D77368400191B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppStore;
+			productName = ShuShan;
+			productReference = 4622765A1D77368400191B8D /* AppStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4622760C1D77365D00191B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "罗焯成";
+				TargetAttributes = {
+					4622762E1D77365D00191B8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 462276131D77365D00191B8D;
+					};
+					462276391D77365D00191B8D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 462276131D77365D00191B8D;
+					};
+				};
+			};
+			buildConfigurationList = 4622760F1D77365D00191B8D /* Build configuration list for PBXProject "Unity-Iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4622760B1D77365D00191B8D;
+			productRefGroup = 462276151D77365D00191B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4622762E1D77365D00191B8D /* ShuShanTests */,
+				462276391D77365D00191B8D /* ShuShanUITests */,
+				4622764C1D77368400191B8D /* AppStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4622762D1D77365D00191B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462276381D77365D00191B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462276521D77368400191B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462276531D77368400191B8D /* art.scnassets in Resources */,
+				462276541D77368400191B8D /* LaunchScreen.storyboard in Resources */,
+				462276551D77368400191B8D /* Assets.xcassets in Resources */,
+				462276561D77368400191B8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4622762B1D77365D00191B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462276341D77365D00191B8D /* ShuShanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462276361D77365D00191B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4622763F1D77365D00191B8D /* ShuShanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4622764D1D77368400191B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4622764E1D77368400191B8D /* AppDelegate.m in Sources */,
+				4622764F1D77368400191B8D /* GameViewController.m in Sources */,
+				462276501D77368400191B8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462276221D77365D00191B8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462276231D77365D00191B8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462276271D77365D00191B8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462276281D77365D00191B8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462276411D77365D00191B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "cdf78db7-5cfe-4cfd-9c9a-821ff9743ae5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462276421D77365D00191B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Steep Jiao Si Zhi Information Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Steep Jiao Si Zhi Information Technology Co., Ltd.";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "cdf78db7-5cfe-4cfd-9c9a-821ff9743ae5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462276471D77365D00191B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ShuShanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ShuShanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuShan.app/ShuShan";
+			};
+			name = Debug;
+		};
+		462276481D77365D00191B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShuShanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ShuShanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuShan.app/ShuShan";
+			};
+			name = Release;
+		};
+		4622764A1D77365D00191B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ShuShanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ShuShanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShuShan;
+			};
+			name = Debug;
+		};
+		4622764B1D77365D00191B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShuShanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ShuShanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShuShan;
+			};
+			name = Release;
+		};
+		462276581D77368400191B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ShuShan copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbl.fifteen1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		462276591D77368400191B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ShuShan copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smbl.fifteen1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4622760F1D77365D00191B8D /* Build configuration list for PBXProject "Unity-Iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462276411D77365D00191B8D /* Debug */,
+				462276421D77365D00191B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462276461D77365D00191B8D /* Build configuration list for PBXNativeTarget "ShuShanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462276471D77365D00191B8D /* Debug */,
+				462276481D77365D00191B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462276491D77365D00191B8D /* Build configuration list for PBXNativeTarget "ShuShanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4622764A1D77365D00191B8D /* Debug */,
+				4622764B1D77365D00191B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462276571D77368400191B8D /* Build configuration list for PBXNativeTarget "AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462276581D77368400191B8D /* Debug */,
+				462276591D77368400191B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4622760C1D77365D00191B8D /* Project object */;
+}
